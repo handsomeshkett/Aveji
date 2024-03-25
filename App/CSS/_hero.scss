@@ -1,0 +1,66 @@
+.hero {
+    height: 1107px;
+    h1 {
+        font-size: 72px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__upper {
+        display: flex;
+        justify-content: space-between;
+        max-height: 299px;
+
+    }
+
+    &__lower {
+        display: flex;
+    justify-content: space-between;
+    }
+
+    &__text {
+        max-width: 50%;
+        display: flex;
+    }
+
+    &__cta {
+        align-self: end;
+        a {
+            text-decoration: underline;
+            font-size: 22px;
+            
+        }
+    }
+
+    &__images {
+        
+        
+        img {
+            
+        } 
+    }
+
+    .main {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 329px;
+        height: 423px;
+        display: flex;
+    }
+
+    .desktop {
+        background-image: url("/Images/HeroDesktop.jfif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 329px;
+        height: 423px;
+        display: flex;
+        justify-content: left;
+        align-items: end;
+    }
+}
